@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.input-field {
+    @apply w-full p-3 bg-gray-100 rounded-lg text-gray-700 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-400 focus:bg-white transition duration-300;
+  }
+  
+  .btn {
+    @apply w-full p-3 mt-6 bg-red-500 text-white font-bold rounded-lg hover:bg-red-600 transition duration-300;
+  }
+  
+  .btn-disabled {
+    @apply bg-red-300 cursor-not-allowed;
+  }
+  
